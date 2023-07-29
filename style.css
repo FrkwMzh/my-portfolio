@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  line-height: 1.7;
+  color: rgb(255, 255, 255);
+}
+.main-nav {
+  display: flex;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 800px;
+  text-decoration-line: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+
+.home-content {
+  text-align: center;
+  padding: 60px;
+  font-size: 30px;
+}
+
+.big-bg {
+  background-size: cover;
+  background-position: center center;
+}
+#home {
+  background-image: url(suzuran.jpg);
+  min-height: 100vh;
+}
+
+.button {
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-decoration: none;
+  opacity: 0.5;
+}
+.button:hover {
+  background: #6b66ff;
+}
+a {
+  font-weight: bold;
+}
+#result {
+  color: black;
+}
